@@ -287,6 +287,25 @@ article .icon {
     height: 90%;
 }
 
+.project2 {
+    padding-top: 10rem;
+}
+
+.project3 {
+    height: 65%;
+    width: 65%;
+    padding-top: 5rem;
+}
+
+.library {
+    padding-top: 4rem;
+
+}
+
+.vsfighting {
+    padding-top: 7.8rem;
+}
+
 .project-title {
     margin: 1rem;
     color: black;
