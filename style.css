@@ -288,7 +288,11 @@ article .icon {
 }
 
 .project2 {
-    padding-top: 10rem;
+    padding-top: 3.7rem;
+}
+
+.vsfighting {
+    padding-top: 2.5rem;
 }
 
 .project3 {
@@ -298,13 +302,23 @@ article .icon {
 }
 
 .library {
-    padding-top: 4rem;
+    padding-top: 3rem;
+}
+
+.project1 {
+    height: 80%;
+    width: 80%;
+    padding-top: 2.5rem;
+}
+
+.videoclub {
+    padding-top: 1.4rem;
 
 }
 
-.vsfighting {
-    padding-top: 7.8rem;
-}
+
+
+
 
 .project-title {
     margin: 1rem;
@@ -365,4 +379,57 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+/* BTS SIO */
+
+.text2-container {
+    padding: 4rem;
+    text-align: center;
+}
+
+.title2 {
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+#sio {
+    position: relative;
+}
+
+/* VEILLES */
+
+#veilles {
+    position: relative;
+}
+
+.veille {
+    text-align: center;
+}
+
+.veilles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: -2rem;
+}
+
+.veille-title {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 5.5rem;
+}
+
+.rabbit {
+    padding-top: 5rem;
 }
