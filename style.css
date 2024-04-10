@@ -97,13 +97,14 @@ section {
 
 .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 420px;
+    width: 380px;
     margin: auto 0;
 }
 
-img {
+.profilepic {
     border-radius: 50%;
+    /* margin-bottom: 5rem; */
 }
 
 .section__text {
@@ -157,6 +158,21 @@ margin-bottom: 1rem;
     padding: 1rem ;
     width: 8rem;
     border-radius: 2rem;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input {
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width: 10rem;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    font-weight:bolder ;
 }
 
 .btn-color-1, .btn-color-2 {
@@ -274,6 +290,7 @@ article .icon {
 
 #projects {
     position: relative;
+    margin-bottom: 10rem;
 }
 
 .color-container {
@@ -356,6 +373,7 @@ article .icon {
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
+    
 }
 
 .contact-info-container p {
@@ -373,8 +391,7 @@ article .icon {
 /* FOOTER */
 
 footer {
-    height: 26vh;
-    margin: 0 1rem;
+    margin-top: 15rem;
 }
 
 footer p {
@@ -382,6 +399,12 @@ footer p {
 }
 
 /* BTS SIO */
+
+#sio {
+    position: relative;
+    padding-top: 24vh;
+    margin-bottom: 10rem;
+}
 
 .text2-container {
     padding: 4rem;
@@ -396,9 +419,7 @@ ul {
     list-style: none;
 }
 
-#sio {
-    position: relative;
-}
+
 
 /* VEILLES */
 
