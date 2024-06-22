@@ -5,11 +5,17 @@
 * {
     margin: 0;
     padding: 0;
+    zoom: 98%;
 }
 
 body {
     font-family: "Poppins", sans-serif;
-    
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 html {
@@ -298,7 +304,6 @@ article .icon {
     flex: 1;
     background: white;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163,163,163);
     text-align: center;
 }
@@ -356,6 +361,13 @@ article .icon {
     color: black;
     border-color: rgb(163,163,163);
 }
+
+.ap1 {
+    font-size: 4rem;
+    padding-top: 2rem;
+}
+
+
 
 /* CONTACT */
 
@@ -463,4 +475,10 @@ ul {
 
 .rabbit {
     padding-top: 5rem;
+}
+
+.finastra {
+    width: 32rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
 }
