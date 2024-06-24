@@ -233,7 +233,7 @@ input {
 .arrow {
     position: absolute;
     right: -5rem;
-    bottom: 10rem;
+    bottom: 2rem;
 }
 
 .details-containers {
@@ -303,6 +303,7 @@ article .icon {
     padding: 1rem;
     flex: 1;
     background: white;
+    border : rgb(53, 53, 53) 0.1rem solid;
     border-radius: 2rem;
     border-color: rgb(163,163,163);
     text-align: center;
@@ -482,3 +483,18 @@ ul {
     padding-left: 2rem;
     padding-top: 3rem;
 }
+
+#veilles2 {
+    position: relative;
+    margin-top: 20vh;
+ }
+
+ #parcours {
+    position: relative;
+    margin-top: 20vh;
+ }
+
+ #projects2 {
+    position: relative;
+    margin-top: 20vh;
+ }
