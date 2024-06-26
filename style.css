@@ -365,7 +365,16 @@ article .icon {
 
 .ap1 {
     font-size: 4rem;
-    padding-top: 2rem;
+    margin-bottom: -1rem;
+}
+
+.infolab {
+    margin-bottom: 3rem;
+}
+
+.gsb {
+    width: 85%;
+    margin-bottom: 3rem;
 }
 
 
