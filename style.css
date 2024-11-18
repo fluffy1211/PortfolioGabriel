@@ -35,10 +35,10 @@ a, .btn {
 /* DESKTOP NAV */
 
 #desktop-nav {
-position: sticky;
-top: 0;
-z-index: 100;
-background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
 }
 
 nav, .nav-links {
@@ -81,8 +81,8 @@ a:hover {
 /* SECTIONS */
 
 section {
-    padding-top : 20vh;
-    height: 95vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -127,8 +127,7 @@ section {
 }
 
 .section__text__p2 {
-font-size: 1.75rem;
-margin-bottom: 1rem;
+    text-align: center;
 }
 
 .title {
@@ -161,7 +160,7 @@ margin-bottom: 1rem;
 .btn {
     font-weight: 600;
     transition: all 0.3s ease;
-    padding: 1rem ;
+    padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
 }
@@ -178,30 +177,27 @@ input {
     background-color: white;
     padding: 10px;
     margin: 10px;
-    font-weight:bolder ;
+    font-weight: bolder;
 }
 
 .btn-color-1, .btn-color-2 {
+    background: none;
     border: rgb(53, 53, 53) 0.1rem solid;
 }
+
 .btn-color-1:hover, .btn-color-2:hover {
     cursor: pointer;
-}
-.btn-color-1, .btn-color-2:hover {
-    background: rgb(53,53,53);
-    color: white;
 }
 
 .btn-color-1:hover {
     background: rgb(0,0,0);
-}
-
-.btn-color-2 {
-    background: none;
+    color: white;
 }
 
 .btn-color-2:hover {
     border: rgb(55,55,55) 0.1rem solid;
+    background: rgb(53,53,53);
+    color: white;
 }
 
 .btn-container {
@@ -211,8 +207,8 @@ input {
 /* ABOUT SECTION */
 
 #about {
-   position: relative;
-   margin-top: 20vh;
+    position: relative;
+    margin-top: 20vh;
 }
 
 .about-containers {
@@ -257,10 +253,11 @@ input {
 
 #experience {
     position: relative;
+    margin-bottom: 10rem; /* Add margin-bottom to create space */
 }
 
 .experience-sub-title {
-    color: rbg(85,85,85);
+    color: rgb(85,85,85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -268,8 +265,9 @@ input {
 
 .experience-details-container {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-direction: column;
+    margin-bottom: 5rem; /* Add margin-bottom to create space */
 }
 
 .article-container {
@@ -349,10 +347,6 @@ article .icon {
 
 }
 
-
-
-
-
 .project-title {
     margin: 1rem;
     color: black;
@@ -376,8 +370,6 @@ article .icon {
     width: 85%;
     margin-bottom: 3rem;
 }
-
-
 
 /* CONTACT */
 
@@ -451,8 +443,6 @@ ul {
     list-style: none;
 }
 
-
-
 /* VEILLES */
 
 #veilles {
@@ -525,3 +515,65 @@ ul {
  .table {
     text-align: center;
  }
+
+/* DOCUMENTATION SECTION */
+
+#documentation {
+    position: relative;
+    margin-top: 20vh;
+}
+
+.documentation-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.documentation-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.doc-title {
+    color: black;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.doc-border-containers {
+    padding: 1rem;
+    flex: 1;
+    background: white;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 2rem;
+    border-color: rgb(163,163,163);
+    text-align: center;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.doc-article-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center; /* Center the text horizontally */
+    color: black;
+    height: 100%;
+}
+
+.doc-img {
+    width: 100%;
+    height: auto;
+}
+
+.doc-description {
+    flex-grow: 1;
+    display: flex;
+    align-items: center; /* Center the text vertically */
+    justify-content: center; /* Center the text horizontally */
+}
