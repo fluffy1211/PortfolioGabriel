@@ -358,7 +358,7 @@ article .icon {
 }
 
 .ap1 {
-    font-size: 4rem;
+    font-size: 2rem;
     margin-bottom: -1rem;
 }
 
@@ -477,8 +477,21 @@ ul {
     padding-top: 5rem;
 }
 
+.cursor {
+    height: 16rem;
+    width: 16rem;
+    padding-left: 5rem;
+}
+
 .alert {
     padding-left: 12rem;
+}
+
+
+
+.alert2 {
+    padding-top: 1rem;
+    padding-left: 8rem;
 }
 
 .feedly {
@@ -567,7 +580,7 @@ ul {
 }
 
 .doc-img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
